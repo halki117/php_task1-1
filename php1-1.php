@@ -1,5 +1,3 @@
-
-
 <?php 
 
 // リロードをした時に二重送信を防ぐためにトークンの発行をしている
@@ -16,9 +14,7 @@ $_SESSION['token'] = mt_rand();
 
 $token = $_SESSION['token'];
 
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,5 +46,4 @@ $token = $_SESSION['token'];
   </p>
   
 </body>
-
 </html>
